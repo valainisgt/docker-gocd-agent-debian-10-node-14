@@ -39,4 +39,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: valainisgt/docker-gocd-agent-debian-10-dotnet-5:v21.1.0
+          tags: valainisgt/docker-gocd-agent-debian-10-node-14:v21.1.0
