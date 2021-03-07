@@ -32,5 +32,5 @@ jobs:
           file: ./Dockerfile
           tags: valainisgt/docker-gocd-agent-debian-10-node-14:v21.1.0
 
-      - name: Test .NET is installed 
-        run: set -e && docker run --rm --pull never valainisgt/docker-gocd-agent-debian-10-dotnet-5:v21.1.0 /bin/bash -c 'node --version && npm --version'
+      - name: Test Node is installed 
+        run: set -e && docker run --rm --pull never valainisgt/docker-gocd-agent-debian-10-node-14:v21.1.0 /bin/bash -c 'node --version && npm --version'
